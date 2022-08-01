@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*flex*/
+
+.flex {
+  display: flex;
+}
+
+.flex__wrap {
+  flex-wrap: wrap;
+}
+
+.flex__col--center {
+  flex-direction: column;
+  justify-content: center;
+}
+.jus__Item--center {
+  justify-content: center;
+  align-items: center;
+}
+
+.jus__space--between {
+  justify-content: space-between;
+}
+
+.align-self {
+  align-self: flex-start;
+}
+
+/*General*/
+
+* {
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  line-height: 1.5;
+}
+img {
+  width: 100%;
+}
+
+.container {
+  width: 1000px;
+  height: 625px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+/*Company-Header*/
+
+.backGround-color {
+  background-color: #0a2640;
+}
+
+.Ellipse__position {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.company__logo {
+  width: 100px;
+}
+
+.Company__Header--nav {
+  z-index: 99;
+}
+.Company__Header--nav a {
+  color: lightgray;
+  margin-left: 2.5rem;
+}
+
+.Login__button {
+  padding: 8px 36px;
+  border-radius: 24px;
+  margin-left: 2.5rem;
+  font-weight: 700;
+}
+
+/*Hero-section*/
+
+.Hero {
+  margin: 4rem 0;
+}
+
+.Hero__template h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.Hero__template p {
+  color: lightgray;
+  font-size: 0.8rem;
+}
+.Hero__image {
+  width: 40%;
+  z-index: 200;
+}
+
+.button__wrapper {
+  margin: 2rem 0;
+}
+
+.buy__template {
+  padding: 12px 45px;
+  border-radius: 24px;
+  background-color: #0a2640;
+  border: 2px solid white;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.explore__btn {
+  margin-left: 3rem;
+  padding: 12px 40px;
+  border-radius: 24px;
+  background-color: #0a2640;
+  border: 2px solid white;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.button__wrapper :hover {
+  background-color: #65e4a3;
+  color: #0a2640;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.Logos {
+  height: 100px;
+  margin-bottom: 2rem;
+}
+
+/*Services*/
+
+.Services {
+  margin: 1rem;
+}
+.Services h2 {
+  font-size: 1rem;
+  color: rgb(175, 175, 175);
+  text-align: center;
+}
+
+.Services h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+.services__content {
+  margin: 1rem;
+}
+.services__content h4 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 1.2rem 0;
+}
+
+.services__content p {
+  color: rgb(175, 175, 175);
+  font-size: 1rem;
+  margin: 0.8rem 0;
+}
+
+.services__content button {
+  outline: 0;
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid #0a2640;
+  font-weight: 600;
+  color: #0a2640;
+}
+
+/*Connect*/
+
+.connect {
+  margin: 10rem 0;
+}
+.connect__image {
+  position: relative;
+}
+.connect-1,
+.connect-3 {
+  width: 450px;
+}
+
+.connect-2 {
+  width: 300px;
+  position: absolute;
+  left: 140px;
+  bottom: -60px;
+}
+
+.connect-4 {
+  width: 300px;
+  position: absolute;
+  left: 140px;
+  bottom: -60px;
+}
+
+.pie {
+  width: 200px;
+}
+.check {
+  width: 30px;
+  height: 30px;
+  background-color: #0a2640;
+  border-radius: 50%;
+}
+
+.check img {
+  width: 15px;
+}
+
+.connect-text {
+  width: 40%;
+}
+.connect-text h2 {
+  font-size: 2rem;
+}
+
+.start-btn {
+  padding: 12px 40px;
+  border-radius: 24px;
+  background-color: #0a2640;
+  border: 2px solid white;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.check-content {
+  margin: 0.5rem 0;
+}
+
+.check-content p {
+  margin-left: 0.5rem;
+}
+
+.check-content button {
+  width: 100%;
+  padding: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.check-content img {
+  width: 20px;
+}
+
+.ml-1 {
+  margin-right: 1rem;
+}
+
+.check-content button:hover {
+  background-color: #0a2640;
+  color: white;
+}
+.start-btn:hover {
+  background-color: #65e4a3;
+  color: black;
+}
+
+.pie {
+  width: 200px;
+
+  position: absolute;
+  right: 200px;
+  bottom: -45px;
+}
+
+.blankcard {
+  width: 300px;
+  position: absolute;
+  right: 150px;
+  bottom: -100px;
+}
