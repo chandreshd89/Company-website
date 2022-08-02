@@ -1,14 +1,9 @@
-import Hero from "./Hero";
-import Services from "./Services";
-import Connect from "./Connect";
-import ConnectTwo from "./ConnectTwo";
+import Home from "../src/pages/Home/Home";
+
 function App() {
   return (
     <>
-      <Hero />
-      <Services />
-      <Connect />
-      <ConnectTwo />
+      <Home />
     </>
   );
 }

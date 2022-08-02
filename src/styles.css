@@ -158,7 +158,14 @@ table {
 }
 
 /*General*/
-
+:root {
+  --black: #000000;
+  --dark-blue: #0a2640;
+  --light-green: #65e4a3;
+  --white: #ffff;
+  --light-gray: #d3d3d3;
+  --dark-gray: #afafaf;
+}
 * {
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
@@ -189,10 +196,10 @@ button {
 /*Company-Header*/
 
 .backGround-color {
-  background-color: #0a2640;
+  background-color: var(--dark-blue);
 }
 
-.Ellipse__position {
+.ellipse__position {
   width: 600px;
   height: 600px;
   position: absolute;
@@ -203,11 +210,11 @@ button {
   width: 100px;
 }
 
-.Company__Header--nav {
+.company__Header--nav {
   z-index: 99;
 }
-.Company__Header--nav a {
-  color: lightgray;
+.company__Header--nav a {
+  color: var(--light-gray);
   margin-left: 2.5rem;
 }
 
@@ -220,20 +227,20 @@ button {
 
 /*Hero-section*/
 
-.Hero {
+.hero {
   margin: 4rem 0;
 }
 
-.Hero__template h1 {
+.hero__template h1 {
   font-size: 2.5rem;
-  color: white;
+  color: var(--white);
 }
 
-.Hero__template p {
-  color: lightgray;
+.hero__template p {
+  color: var(--light-gray);
   font-size: 0.8rem;
 }
-.Hero__image {
+.hero__image {
   width: 40%;
   z-index: 200;
 }
@@ -245,9 +252,9 @@ button {
 .buy__template {
   padding: 12px 45px;
   border-radius: 24px;
-  background-color: #0a2640;
-  border: 2px solid white;
-  color: white;
+  background-color: var(--dark-blue);
+  border: 2px solid var(--white);
+  color: var(--white);
   font-size: 1rem;
   font-weight: 600;
 }
@@ -256,37 +263,37 @@ button {
   margin-left: 3rem;
   padding: 12px 40px;
   border-radius: 24px;
-  background-color: #0a2640;
-  border: 2px solid white;
-  color: white;
+  background-color: var(--dark-blue);
+  border: 2px solid var(--white);
+  color: var(--white);
   font-size: 1rem;
   font-weight: 600;
 }
 
 .button__wrapper :hover {
-  background-color: #65e4a3;
-  color: #0a2640;
+  background-color: var(--light-green);
+  color: var(--dark-blue);
   font-size: 1rem;
   font-weight: 600;
 }
 
-.Logos {
+.logos {
   height: 100px;
   margin-bottom: 2rem;
 }
 
 /*Services*/
 
-.Services {
+.services {
   margin: 1rem;
 }
-.Services h2 {
+.services h2 {
   font-size: 1rem;
-  color: rgb(175, 175, 175);
+  color: var(--dark-gray);
   text-align: center;
 }
 
-.Services h3 {
+.services h3 {
   font-size: 2rem;
   text-align: center;
 }
@@ -300,7 +307,7 @@ button {
 }
 
 .services__content p {
-  color: rgb(175, 175, 175);
+  color: var(--dark-gray);
   font-size: 1rem;
   margin: 0.8rem 0;
 }
@@ -308,10 +315,10 @@ button {
 .services__content button {
   outline: 0;
   border: none;
-  background-color: white;
-  border-bottom: 1px solid #0a2640;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--dark-blue);
   font-weight: 600;
-  color: #0a2640;
+  color: var(--dark-blue);
 }
 
 /*Connect*/
@@ -347,7 +354,7 @@ button {
 .check {
   width: 30px;
   height: 30px;
-  background-color: #0a2640;
+  background-color: var(--dark-blue);
   border-radius: 50%;
 }
 
@@ -360,17 +367,6 @@ button {
 }
 .connect-text h2 {
   font-size: 2rem;
-}
-
-.start-btn {
-  padding: 12px 40px;
-  border-radius: 24px;
-  background-color: #0a2640;
-  border: 2px solid white;
-  color: white;
-  font-size: 1rem;
-  font-weight: 600;
-  margin: 1rem 0;
 }
 
 .check-content {
@@ -396,12 +392,8 @@ button {
 }
 
 .check-content button:hover {
-  background-color: #0a2640;
-  color: white;
-}
-.start-btn:hover {
-  background-color: #65e4a3;
-  color: black;
+  background-color: var(--dark-blue);
+  color: var(--white);
 }
 
 .pie {
@@ -417,4 +409,54 @@ button {
   position: absolute;
   right: 150px;
   bottom: -100px;
+}
+
+/*Testimonials*/
+.testimonials {
+  margin: 8rem 0;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  color: var(--light-gray);
+}
+
+.blankCard {
+  width: 300px;
+  height: 400px;
+  background-color: white;
+}
+
+.mb2 {
+  margin-bottom: 2rem;
+}
+
+/*CustomerService*/
+
+.customerservice img {
+  height: 400px;
+}
+
+.textwrapper {
+  margin: 1rem;
+}
+
+.textwrapper p {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.accordion {
+  width: 400px;
+  padding: 0.5rem;
+  border-bottom: 2px solid var(--light-gray);
+  margin: 1rem 0;
+}
+
+.small__circle {
+  width: 25px;
+  height: 25px;
+  background-color: var(--dark-blue);
+  border-radius: 50%;
+  color: white;
 }
