@@ -1,12 +1,12 @@
 import buttonStyle from "./button.module.css";
 
 function Button(props) {
-  const { text = "", className = "", startIcon = "" } = props;
+  const { textBtn = "", className = "", startIcon = "" } = props;
   return (
     <button
-      className={`${buttonStyle.button} ${className} ${buttonStyle.bkgWhite}`}
+      className={`${buttonStyle.button} ${className} ${buttonStyle.blank} ${buttonStyle.bkgWhite}`}
     >
-      {text}
+      {textBtn}
       {startIcon ? startIcon : null}
     </button>
   );

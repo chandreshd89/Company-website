@@ -323,11 +323,17 @@ button {
 .services__content .blank {
   border-bottom: 1px solid black;
   border-radius: 0;
-}
-.services__content .blank :hover {
-  background-color: none;
+  padding: 1rem 0;
 }
 
+.mt-3 {
+  margin-top: 3rem;
+}
+.services__content i {
+  margin-left: 1rem;
+  display: flex;
+  align-self: center;
+}
 /*Connect*/
 
 .connect {
@@ -470,6 +476,125 @@ button {
 
 /*Our-Blog*/
 
+.blog h2 {
+  text-align: center;
+  color: var(--light-gray);
+}
+
+.blog h3 {
+  font-size: 2rem;
+  text-align: center;
+}
 .blog {
-  margin: 4rem;
+  margin: 10rem;
+}
+
+.blog .bkgWhite {
+  background-color: var(--white);
+  color: var(--dark-blue);
+  border: 2px solid var(--dark-blue);
+}
+
+/*SendEmail*/
+
+.sendemail {
+  margin-top: 20rem;
+  position: relative;
+  padding: 3rem;
+}
+
+.email__wrapper {
+  position: absolute;
+  bottom: 200px;
+  left: 300px;
+  right: 200px;
+  top: 150px;
+  z-index: 10;
+}
+.email__wrapper h2 {
+  font-size: 3rem;
+  color: var(--light-gray);
+}
+.sendemail__container {
+  height: 400px;
+}
+.ellipse__position--Two {
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9;
+  padding: 3rem;
+}
+
+.bor-r {
+  border-radius: 14px;
+}
+
+#emailtext {
+  padding: 0.5rem 3rem;
+  border-radius: 24px;
+  outline: none;
+  border: none;
+}
+
+#submitBtn {
+  padding: 0.5rem 1.5rem;
+  margin-left: 2rem;
+  border-radius: 24px;
+  outline: none;
+  border: none;
+  background-color: bisque;
+  font-weight: 700;
+}
+
+#submitBtn:hover {
+  background-color: aqua;
+}
+
+form {
+  margin: 1rem 0;
+}
+
+/*Footer*/
+
+.footer__container {
+  width: 1120px;
+  height: 200px;
+  margin: 5rem auto;
+}
+.rights img {
+  width: 150px;
+  background-color: rgb(10, 38, 64);
+}
+
+.footer h3 {
+  color: var(--dark-blue);
+  font-weight: 600;
+}
+
+.footer a,
+p,
+small {
+  color: var(--dark-gray);
+}
+
+.rights {
+  width: 30%;
+}
+.landings {
+  width: 10%;
+}
+.comapny,
+.resources {
+  width: 20%;
+}
+
+.footer span {
+  background-color: var(--light-green);
+  border-radius: 16px;
+  font-size: 0.7rem;
+  margin-left: 0.5rem;
+  padding: 0.2rem;
 }

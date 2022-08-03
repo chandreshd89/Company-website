@@ -5,6 +5,8 @@ import ConnectTwo from "./ConnectTwo";
 import Testimonial from "./Testimonial";
 import CustomerService from "./CustomerService";
 import Blog from "./Blog";
+import SendEmail from "./SendEmail";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -16,6 +18,8 @@ function Home() {
       <Testimonial />
       <CustomerService />
       <Blog />
+      <SendEmail />
+      <Footer />
     </>
   );
 }

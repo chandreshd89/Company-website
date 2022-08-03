@@ -1,4 +1,4 @@
-import Button from "./components/Button/Button";
+import Button from "../Button/Button";
 
 function Hero() {
   return (
@@ -34,8 +34,8 @@ function Hero() {
               </p>
               <div className="flex">
                 {" "}
-                <Button text="Buy Template" className="button__wrapper" />
-                <Button text="explore " className="button__wrapper" />
+                <Button textBtn="Buy Template" className="button__wrapper" />
+                <Button textBtn="explore " className="button__wrapper" />
               </div>
             </div>
             <div className="hero__image">

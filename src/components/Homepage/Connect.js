@@ -1,4 +1,4 @@
-import Button from "./components/Button/Button";
+import Button from "../Button/Button";
 
 function Connect(props) {
   return (
@@ -40,7 +40,7 @@ function Connect(props) {
               </div>
               <p>Business-to-consumer long tail.</p>
             </div>
-            <Button text="Start Now" className="flex align-self" />
+            <Button textBtn="Start Now" className="mt-3 flex align-self" />
           </div>{" "}
         </div>
       </section>
