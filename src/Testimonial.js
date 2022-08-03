@@ -1,5 +1,5 @@
 import ButtonArrow from "./components/Button/Button-Arrow";
-import CardTest from "./components/testimonial-card";
+import CardTest from "./components/Card/testimonial-card";
 
 function Testimonial() {
   return (

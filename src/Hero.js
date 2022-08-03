@@ -6,11 +6,11 @@ function Hero() {
       <div className="backGround-color ">
         <div className="container">
           <div className="ellipse__position">
-            <img src="../Images/Ellipse 9.png" alt="ellipse-9" />
+            <img src="/Images/Ellipse 9.png" alt="ellipse-9" />
           </div>
           <div className=" flex jus__space--between">
             <div className="company__logo">
-              <img src="../Images/Logo.png" alt="Company-logo" />
+              <img src="/Images/Logo.png" alt="Company-logo" />
             </div>
             <nav className="company__Header--nav">
               <a href="#">Product</a>
@@ -32,18 +32,18 @@ function Hero() {
               <p>
                 First mover advantage innovator success deployment nn-disclosure
               </p>
-              <div className="button__wrapper flex">
+              <div className="flex">
                 {" "}
-                <Button text="Buy Template" />
-                <Button text="explore " />
+                <Button text="Buy Template" className="button__wrapper" />
+                <Button text="explore " className="button__wrapper" />
               </div>
             </div>
             <div className="hero__image">
-              <img src="../Images/hero graphics.svg" alt="hero__graphics" />
+              <img src="/Images/hero graphics.svg" alt="hero__graphics" />
             </div>
           </section>
           <div className="logos">
-            <img src="../Images/Logos.png" alt="Logos" />
+            <img src="/Images/Logos.png" alt="Logos" />
           </div>
         </div>
       </div>

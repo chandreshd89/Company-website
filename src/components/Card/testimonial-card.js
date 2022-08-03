@@ -1,4 +1,4 @@
-import CardStyle from "../components/Button/card.module.css";
+import CardStyle from "./card.module.css";
 
 function CardTest(props) {
   return (

@@ -3,7 +3,9 @@ import buttonStyle from "./button.module.css";
 function Button(props) {
   const { text = "", className = "", startIcon = "" } = props;
   return (
-    <button className={`${buttonStyle.button} ${className}`}>
+    <button
+      className={`${buttonStyle.button} ${className} ${buttonStyle.bkgWhite}`}
+    >
       {text}
       {startIcon ? startIcon : null}
     </button>

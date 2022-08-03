@@ -1,4 +1,4 @@
-import Card from "./components/Button/Card";
+import Card from "./components/Card/Card";
 import Button from "./components/Button/Button";
 
 function Services() {
@@ -16,7 +16,7 @@ function Services() {
         <div className="flex wrap">
           <div className="services__details">
             <div className="services__content flex ">
-              <div className=" services flex flex__col--center">
+              <div className=" services flex flex__col--center ">
                 <Card
                   img="../Images/service-1.png.png"
                   title="Cool feature title"
@@ -25,7 +25,7 @@ function Services() {
                 <Button
                   text="Explore Page"
                   startIcon={<i class="fa-solid fa-arrow-right"></i>}
-                  className="flex align-self"
+                  className="blank flex align-self "
                 />
               </div>
               <div className="services flex flex__col--center">
@@ -35,7 +35,7 @@ function Services() {
                   text="Learning curve network effects return on investment."
                 />
                 <Button
-                  className="flex align-self"
+                  className="flex align-self blank"
                   text="Explore Page"
                   startIcon={<i class="fa-solid fa-arrow-right"></i>}
                 />
@@ -47,15 +47,11 @@ function Services() {
                   text="Learning curve network effects return on investment."
                 />
                 <Button
-                  className="flex align-self"
+                  className="flex align-self blank"
                   text="Explore Page"
                   startIcon={<i class="fa-solid fa-arrow-right"></i>}
                 />
               </div>
-              {/* <button>
-                 Explore page <i class="fa-solid fa-arrow-right"></i>
-                {" "}
-              </button> */}
             </div>
           </div>
         </div>

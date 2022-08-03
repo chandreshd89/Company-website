@@ -49,3 +49,34 @@
 strong {
   font-weight: 600;
 }
+
+.width {
+  width: 300px;
+}
+
+.managerwidth {
+  width: 30px;
+  margin-right: 1rem;
+}
+
+.title {
+  font-weight: 600;
+  color: rgb(59, 59, 59);
+}
+
+.date {
+  color: rgb(187, 185, 185);
+  font-size: 0.8rem;
+  margin-left: 1rem;
+}
+
+.text {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  width: 200px;
+}
+
+.center {
+  display: flex;
+  align-self: center;
+}

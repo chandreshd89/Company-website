@@ -5,10 +5,11 @@ function CustomerService() {
         <div className="container">
           <img src="/Images/customerservice.png" alt="customerservice" />
 
-          <div className="textwrapper flex">
+          <div className="textwrapper flex jus__space--between ">
             <p>
-              We connect our customers with the best, and help them keep up-and
-              stay open.
+              We connect our customers <br />
+              with the best, and help them
+              <br /> keep up-and stay open.
             </p>
             <div>
               <div className="accordion flex jus__space--between">

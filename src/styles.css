@@ -314,11 +314,18 @@ button {
 
 .services__content button {
   outline: 0;
-  border: none;
   background-color: var(--white);
   border-bottom: 1px solid var(--dark-blue);
   font-weight: 600;
   color: var(--dark-blue);
+}
+
+.services__content .blank {
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+.services__content .blank :hover {
+  background-color: none;
 }
 
 /*Connect*/
@@ -438,7 +445,7 @@ button {
 }
 
 .textwrapper {
-  margin: 1rem;
+  margin: 3rem 1rem;
 }
 
 .textwrapper p {
@@ -459,4 +466,10 @@ button {
   background-color: var(--dark-blue);
   border-radius: 50%;
   color: white;
+}
+
+/*Our-Blog*/
+
+.blog {
+  margin: 4rem;
 }
