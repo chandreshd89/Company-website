@@ -4,7 +4,7 @@ function Blog() {
   return (
     <>
       <section className="blog">
-        <div className="container">
+        <div className="container csContainerheight">
           <div>
             <h2>Our Blog</h2>
             <h3>
@@ -12,7 +12,7 @@ function Blog() {
               <br /> management venture
             </h3>
           </div>
-          <div className="container  flex jus__space--between">
+          <div className="blogMart  flex jus__space--between col-center">
             {[
               {
                 img: "../Images/service-1.png.png",
@@ -46,7 +46,7 @@ function Blog() {
               );
             })}
           </div>
-          <div className="flex jus__Item--center">
+          <div className="flex jus__Item--center  ">
             <Button textBtn="Load More" className="bkgWhite" />
           </div>
         </div>

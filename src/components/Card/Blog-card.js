@@ -12,7 +12,7 @@ function BlogCard(props) {
           <date className={`${Cardstyle.date}`}>{props.date}</date>
         </h4>
         <p className={`${Cardstyle.text}`}>{props.text}</p>
-        <div className="flex">
+        <div className="flex marL">
           <img
             className={`  ${Cardstyle.managerwidth}`}
             src={props.imgManager}

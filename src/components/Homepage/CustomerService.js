@@ -2,10 +2,10 @@ function CustomerService() {
   return (
     <>
       <section className="customerservice">
-        <div className="container">
+        <div className="container ">
           <img src="/Images/customerservice.png" alt="customerservice" />
 
-          <div className="textwrapper flex jus__space--between ">
+          <div className="textwrapper flex jus__space--between col-center ">
             <p>
               We connect our customers <br />
               with the best, and help them

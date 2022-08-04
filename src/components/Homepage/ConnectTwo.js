@@ -2,7 +2,7 @@ function ConnectTwo() {
   return (
     <>
       <section>
-        <div className="container flex jus__space--between">
+        <div className="container height flex jus__space--between reverse col-center">
           <div className="connect-text  flex flex__col--center">
             <h2>
               We connect our customers with the best,and help them keep up-and

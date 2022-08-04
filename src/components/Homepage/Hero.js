@@ -4,22 +4,28 @@ function Hero() {
   return (
     <>
       <div className="backGround-color ">
-        <div className="container">
+        <div className="container height">
           <div className="ellipse__position">
             <img src="/Images/Ellipse 9.png" alt="ellipse-9" />
           </div>
-          <div className=" flex jus__space--between">
+          <div className=" flex jus__space--between ">
             <div className="company__logo">
               <img src="/Images/Logo.png" alt="Company-logo" />
             </div>
-            <nav className="company__Header--nav">
+            <label className="bars" for="toggle">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="toggle" />
+            <nav className="nav flex col-center">
               <a href="#">Product</a>
               <a href="#">Services</a>
               <a href="#">About</a>
-              <button className="Login__button">Log In</button>
+              <div>
+                <button className="Login__button">Log In</button>
+              </div>
             </nav>
           </div>
-          <section className="hero flex jus__space--between">
+          <section className="hero flex jus__space--between col-center">
             <div className="hero__template flex flex__col--center">
               <h1>
                 Save time by building
@@ -32,7 +38,7 @@ function Hero() {
               <p>
                 First mover advantage innovator success deployment nn-disclosure
               </p>
-              <div className="flex">
+              <div className="flex col-center">
                 {" "}
                 <Button textBtn="Buy Template" className="button__wrapper" />
                 <Button textBtn="explore " className="button__wrapper" />

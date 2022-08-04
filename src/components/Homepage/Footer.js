@@ -1,9 +1,9 @@
 function Footer() {
   return (
     <>
-      <footer className="footer">
-        <div className="footer__container flex jus__space--between">
-          <div className="rights flex flex__col--center jus__space--between">
+      <footer className="footer ">
+        <div className="footer__container flex jus__space--between center ">
+          <div className="rights flex flex__col--center jus__space--between center">
             <img src="../Images/Logo.png" alt="logo" />
             <p>
               Social media validation business model canvas graphical user

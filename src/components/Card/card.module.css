@@ -18,6 +18,7 @@
   font-weight: 600;
   font-size: 1rem;
   margin: 1.2rem 0;
+  text-align: center;
 }
 
 .services__content p {
@@ -29,13 +30,14 @@
 /*TESTIMONIALS*/
 
 .blankCard {
-  width: 300px;
+  width: 250px;
   background-color: white;
   padding: 2rem;
   border-radius: 6px;
+  margin: 1rem;
 }
 
-.blankCard p {
+img.blankCard p {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -56,12 +58,14 @@ strong {
 
 .managerwidth {
   width: 30px;
-  margin-right: 1rem;
+  margin-left: 3rem;
+  margin-top: 0.5rem;
 }
 
 .title {
   font-weight: 600;
   color: rgb(59, 59, 59);
+  text-align: center;
 }
 
 .date {
@@ -71,9 +75,11 @@ strong {
 }
 
 .text {
-  margin: 1rem 0;
+  margin-left: 3rem;
+  margin-top: 0.5rem;
   font-size: 1.2rem;
   width: 200px;
+  text-align: center;
 }
 
 .center {

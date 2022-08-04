@@ -4,9 +4,9 @@ import CardTest from "../Card/testimonial-card";
 function Testimonial() {
   return (
     <>
-      <section className="testimonials backGround-color">
-        <div className="container">
-          <div className="flex jus__space--between mb2">
+      <section className="testimonials heightOne backGround-color">
+        <div className="container ">
+          <div className="flex jus__space--between mb2 col-center">
             <h2>
               An enterprise template to ramp <br />
               up your company website
@@ -18,7 +18,7 @@ function Testimonial() {
               />
             </div>
           </div>
-          <div className="flex flex__wrap jus__space--between ">
+          <div className="flex flex__wrap jus__space--between col-center ">
             {[
               {
                 img: "../Images/Ellipse 4.png",

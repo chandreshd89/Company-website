@@ -13,11 +13,11 @@ function Services() {
             crowdfunding iteration
           </h3>
         </div>
-        <div className="flex wrap">
+        <div className="flex wrap col-center ">
           <div className="services__details">
             <div className="services__content flex ">
               {" "}
-              <div className=" services flex  ">
+              <div className=" services flex col-center  ">
                 {[
                   {
                     img: "../Images/service-1.png.png",

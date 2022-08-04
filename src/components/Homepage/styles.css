@@ -169,6 +169,7 @@ table {
 * {
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
+  font-size: 16px;
 }
 
 body {
@@ -180,7 +181,7 @@ img {
 
 .container {
   width: 1000px;
-  height: 625px;
+  height: 800px;
   margin: 0 auto;
   padding: 2rem 0;
 }
@@ -199,9 +200,14 @@ button {
   background-color: var(--dark-blue);
 }
 
+#toggle,
+.bars {
+  display: none;
+}
+
 .ellipse__position {
-  width: 600px;
-  height: 600px;
+  width: 300px;
+  height: 300px;
   position: absolute;
   right: 0;
   top: 0;
@@ -210,10 +216,11 @@ button {
   width: 100px;
 }
 
-.company__Header--nav {
+.nav {
   z-index: 99;
 }
-.company__Header--nav a {
+
+.nav a {
   color: var(--light-gray);
   margin-left: 2.5rem;
 }
@@ -347,6 +354,7 @@ button {
   width: 450px;
 }
 
+/*  */
 .connect-2 {
   width: 300px;
   position: absolute;
